@@ -75,3 +75,6 @@ You must open CMD to run rename function.
 ```cmd
 npm test
 ```
+
+# VIDEO
+[![Watch the video](https://img.youtube.com/vi/apyQI8T2MRc/maxresdefault.jpg)](https://youtu.be/apyQI8T2MRc)
