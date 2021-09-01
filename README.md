@@ -3,7 +3,9 @@ When you start the altv-server.exe, this repository provide to update your resou
 
 ## For installation
 ```
-npm install pkg simple-git fs
+npm install pkg -g
+npm install simple-git
+npm install fs -g
 ```
 
 ## Settings
@@ -29,7 +31,8 @@ Finally open the altv package.json and add this code in "scripts";
 "test": "index-win.exe && altv-server.exe"
 ```
 
-Open a new CMD in altv-server file, and you can start altv-server with this code 
+Open a new CMD in altv-server file, and you can start altv-server with this code.
+You must open CMD to run rename function.
 ```cmd
 npm test
 ```
