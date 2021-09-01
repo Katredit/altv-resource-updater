@@ -1,4 +1,4 @@
-# altv-virtual-updater
+# altv-resource-updater
 
 # TR
 altv-server.exe'yi başlattığınızda, bu repo kaynaklarınızı GitHub repositoryden güncellemenizi sağlar.
