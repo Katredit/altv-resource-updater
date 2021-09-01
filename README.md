@@ -1,4 +1,43 @@
 # altv-virtual-updater
+
+# TR
+altv-server.exe'yi başlattığınızda, bu repo kaynaklarınızı GitHub repositoryden güncellemenizi sağlar.
+Genel kullanım amacı local bilgisayarınızdaki resources dosyalarını sanal sunucuya otomatik olarak aktarmaktır.
+
+## İndirmek için
+```
+npm install pkg -g
+npm install simple-git
+npm install fs -g
+```
+
+## Ayarlar
+GitHub'da yeni bir repository oluşturmalısınız ve bu oluşturduğunuz repo resources dosyalarınızı barındırmalı.
+<br>
+
+![alt text](https://i.hizliresim.com/trobi41.png)<br>
+
+## Kurulum için
+```
+pkg index.js 
+```
+Bunu yaptıktan sonra index-win.exe'yi altv-server.exe'nin bulunduğu dosyaya taşımalısınız.
+Bunun gibi;
+
+![alt text](https://i.hizliresim.com/8n2h7ou.png)<br>
+
+Son olarak package.json'u açın ve "scripts" etiketinin altına bu kodu ekleyin.
+```json
+"test": "index-win.exe && altv-server.exe"
+```
+
+altv-server dosyası içerisinde yeni bir CMD açmalısınız ve şu kodu kullanmalısınız.
+Yeniden adlandırma fonksiyonun çalışması için CMD açmalısınız.
+```cmd
+npm test
+```
+
+# EN
 When you start the altv-server.exe, this repository provide to update your resources from your GitHub repository
 
 ## For installation
